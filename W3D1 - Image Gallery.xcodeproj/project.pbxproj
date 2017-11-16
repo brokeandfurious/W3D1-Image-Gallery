@@ -13,6 +13,7 @@
 		9DBCCC021FBB4DA8005206C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBCCC011FBB4DA8005206C1 /* Assets.xcassets */; };
 		9DBCCC051FBB4DA8005206C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBCCC031FBB4DA8005206C1 /* LaunchScreen.storyboard */; };
 		9DBCCC081FBB4DA8005206C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCCC071FBB4DA8005206C1 /* main.m */; };
+		9DBCCC131FBB50F4005206C1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCCC121FBB50F4005206C1 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9DBCCC041FBB4DA8005206C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DBCCC061FBB4DA8005206C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DBCCC071FBB4DA8005206C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DBCCC111FBB50F4005206C1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9DBCCC121FBB50F4005206C1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +61,17 @@
 		9DBCCBF71FBB4DA8005206C1 /* W3D1 - Image Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				9DBCCC031FBB4DA8005206C1 /* LaunchScreen.storyboard */,
+				9DBCCBFE1FBB4DA8005206C1 /* Main.storyboard */,
 				9DBCCBF81FBB4DA8005206C1 /* AppDelegate.h */,
 				9DBCCBF91FBB4DA8005206C1 /* AppDelegate.m */,
 				9DBCCBFB1FBB4DA8005206C1 /* ViewController.h */,
 				9DBCCBFC1FBB4DA8005206C1 /* ViewController.m */,
-				9DBCCBFE1FBB4DA8005206C1 /* Main.storyboard */,
-				9DBCCC011FBB4DA8005206C1 /* Assets.xcassets */,
-				9DBCCC031FBB4DA8005206C1 /* LaunchScreen.storyboard */,
-				9DBCCC061FBB4DA8005206C1 /* Info.plist */,
 				9DBCCC071FBB4DA8005206C1 /* main.m */,
+				9DBCCC011FBB4DA8005206C1 /* Assets.xcassets */,
+				9DBCCC061FBB4DA8005206C1 /* Info.plist */,
+				9DBCCC111FBB50F4005206C1 /* SecondViewController.h */,
+				9DBCCC121FBB50F4005206C1 /* SecondViewController.m */,
 			);
 			path = "W3D1 - Image Gallery";
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DBCCC131FBB50F4005206C1 /* SecondViewController.m in Sources */,
 				9DBCCBFD1FBB4DA8005206C1 /* ViewController.m in Sources */,
 				9DBCCC081FBB4DA8005206C1 /* main.m in Sources */,
 				9DBCCBFA1FBB4DA8005206C1 /* AppDelegate.m in Sources */,
